@@ -2,12 +2,12 @@ package com.javalesson.oop.shop;
 
 public class Sosage {
     int ID;
-    Sting name;
+    String name;
     int size;
     int price;
 
 
-    public Sosage(int ID, Sting name, int size, int price) {
+    public Sosage(int ID, String name, int size, int price) {
         this.ID = ID;
         this.name = name;
         this.size = size;
@@ -16,7 +16,7 @@ public class Sosage {
 
     public Sosage getSlice(int size) {
         this.size -= size;
-        return new Sosage(id + 1, name, size, price);
+        return new Sosage(ID + 1, name, size, price);
     }
 
 
@@ -28,11 +28,11 @@ public class Sosage {
         this.ID = ID;
     }
 
-    public Sting getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(Sting name) {
+    public void setName(String name) {
         this.name = name;
     }
 
