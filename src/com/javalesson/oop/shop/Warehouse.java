@@ -11,6 +11,7 @@ public class Warehouse {
     private Sosage sausages[] = new Sosage[capacity];
 
 
+
     public Warehouse(int capacity) {
         this.capacity = capacity;
     }
