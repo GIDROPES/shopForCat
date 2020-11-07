@@ -39,6 +39,7 @@ public class Milk {
         return MilkPrice;
     }
 
+    //этот коментарий не несет смысла
 
 
 }
